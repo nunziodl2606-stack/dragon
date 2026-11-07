@@ -9,14 +9,14 @@
     <a-scene embedded arjs>
       <a-assets>
         <!-- CAMBIA "il-tuo-modello.glb" con il nome esatto del tuo file .glb -->
-        <a-asset-item id="ballet dancer 3d model" src="ballet dancer 3d model.glb"></a-asset-item>
+        <a-asset-item id="balletdancer3dmodel" src="balletdancer3dmodel.glb"></a-asset-item>
       </a-assets>
 
       <!-- Se usi il marker Hiro standard lascia preset="hiro". 
            Se usi un tuo marker personalizzato, usa: type="pattern" url="tuo-marker.patt" -->
       <a-marker type="pattern" url="pattern-marker.patt">
         <a-entity 
-          gltf-model="#ballet dancer 3d model" 
+          gltf-model="#balletdancer3dmodel" 
           scale="0.5 0.5 0.5" 
           position="0 0 0">
         </a-entity>
